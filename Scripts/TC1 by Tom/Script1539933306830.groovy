@@ -13,3 +13,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://desenio.se/')
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/a_Posters'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/img_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/div_Leverans  Normalt sett tar'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/div_Storleksguide'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/span_'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/div_Tavelram i koppar 21x30_ic'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/div_Tavelram i koppar 21x30_ic_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/div_Tillbaka'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/a_Ramar'))
+
+WebUI.click(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/img_2'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Snygga tavlor online  Posters/input_Sk produkt_term'), 'nature')
+
+WebUI.closeBrowser()
+
