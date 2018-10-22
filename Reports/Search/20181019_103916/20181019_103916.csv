@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search,Firefox 61.0,,2018-10-19 10:39:22,2018-10-19 10:40:17,"54,846s",FAILED
+,,,,,,
+Test Cases/TC1,Firefox 61.0,,2018-10-19 10:39:24,2018-10-19 10:39:52,"28,210s",PASSED
+openBrowser,Firefox 61.0,,2018-10-19 10:39:25,2018-10-19 10:39:38,"13,655s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-19 10:39:38,2018-10-19 10:39:42,"3,547s",PASSED
+navigateToUrl,Firefox 61.0,,2018-10-19 10:39:42,2018-10-19 10:39:47,"5,049s",PASSED
+setText,Firefox 61.0,,2018-10-19 10:39:47,2018-10-19 10:39:47,"0,303s",PASSED
+click,Firefox 61.0,,2018-10-19 10:39:47,2018-10-19 10:39:50,"3,086s",PASSED
+verifyTextPresent,Firefox 61.0,,2018-10-19 10:39:50,2018-10-19 10:39:51,"0,705s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-19 10:39:51,2018-10-19 10:39:52,"0,761s",PASSED
+,,,,,,
+Test Cases/TC1 Negative,Firefox 61.0,,2018-10-19 10:39:52,2018-10-19 10:40:16,"24,577s",FAILED
+openBrowser,Firefox 61.0,,2018-10-19 10:39:52,2018-10-19 10:40:01,"9,347s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-19 10:40:01,2018-10-19 10:40:05,"3,523s",PASSED
+navigateToUrl,Firefox 61.0,,2018-10-19 10:40:05,2018-10-19 10:40:10,"5,224s",PASSED
+setText,Firefox 61.0,,2018-10-19 10:40:10,2018-10-19 10:40:10,"0,176s",PASSED
+click,Firefox 61.0,,2018-10-19 10:40:10,2018-10-19 10:40:14,"3,746s",PASSED
+verifyTextPresent,Firefox 61.0,,2018-10-19 10:40:14,2018-10-19 10:40:16,"2,398s",FAILED

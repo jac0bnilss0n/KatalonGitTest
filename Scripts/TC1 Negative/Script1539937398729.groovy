@@ -19,13 +19,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://desenio.se/')
 
-for (def rownr = 1; rownr <= findTestData('SearchData').getRowNumbers(); rownr++) {
-    WebUI.setText(findTestObject('Desenio_OR/input_Sk produkt_term'), findTestData('SearchData').getValue(1, rownr))
+WebUI.setText(findTestObject('Desenio_OR/input_Sk produkt_term'), 'nature')
 
-    WebUI.click(findTestObject('Desenio_OR/input_Sk produkt_Sokknapp'))
+WebUI.click(findTestObject('Desenio_OR/input_Sk produkt_Sokknapp'))
 
-    WebUI.verifyTextPresent(findTestData('SearchData').getValue(1, rownr), false)
-}
+WebUI.verifyTextPresent('naturee', false)
 
 WebUI.closeBrowser()
 

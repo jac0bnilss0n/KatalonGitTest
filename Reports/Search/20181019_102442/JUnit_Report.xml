@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="31" tests="2" failures="0" errors="0">
+   <testsuite name="Search" tests="2" failures="0" errors="0" time="31" timestamp="2018-10-19 10:24:47" hostname="janilsso - LNOR021564.corp.capgemini.com" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janilsso\\git\\KatalonGitTest\\Reports\\Search\\20181019_102442"/>
+         <property name="logFiles" value="C:\\Users\\janilsso\\git\\KatalonGitTest\\Reports\\Search\\20181019_102442\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janilsso - LNOR021564.corp.capgemini.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.225.99.26"/>
+         <property name="sessionId" value="badf12ac28133428df600c4072553361"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC1" classname="Test Cases/TC1" status="PASSED">
+         <system-out><![CDATA[2018-10-19 10:24:47 - [TEST_CASE][PASSED] - Test Cases/TC1: Test Cases/TC1
+
+2018-10-19 10:24:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 10:24:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 10:24:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 10:24:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 10:24:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://desenio.se/' successfully
+
+2018-10-19 10:24:59 - [MESSAGE][PASSED] - Navigate to 'https://desenio.se/' successfully
+
+2018-10-19 10:24:59 - [TEST_STEP][PASSED] - setText: Text 'nature' is set on object 'Object Repository/Desenio_OR/input_Sk produkt_term'
+
+2018-10-19 10:24:59 - [MESSAGE][PASSED] - Text 'nature' is set on object 'Object Repository/Desenio_OR/input_Sk produkt_term'
+
+2018-10-19 10:24:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Desenio_OR/input_Sk produkt_Sokknapp' is clicked on
+
+2018-10-19 10:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Desenio_OR/input_Sk produkt_Sokknapp' is clicked on
+
+2018-10-19 10:25:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'nature' is present on page 
+
+2018-10-19 10:25:03 - [MESSAGE][PASSED] - Text 'nature' is present on page 
+
+2018-10-19 10:25:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 10:25:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC1 Negative" classname="Test Cases/TC1 Negative" status="PASSED">
+         <system-out><![CDATA[2018-10-19 10:25:04 - [TEST_CASE][PASSED] - Test Cases/TC1 Negative: Test Cases/TC1 Negative
+
+2018-10-19 10:25:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-19 10:25:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-19 10:25:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-10-19 10:25:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-10-19 10:25:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://desenio.se/' successfully
+
+2018-10-19 10:25:13 - [MESSAGE][PASSED] - Navigate to 'https://desenio.se/' successfully
+
+2018-10-19 10:25:13 - [TEST_STEP][PASSED] - setText: Text 'nature' is set on object 'Object Repository/Desenio_OR/input_Sk produkt_term'
+
+2018-10-19 10:25:13 - [MESSAGE][PASSED] - Text 'nature' is set on object 'Object Repository/Desenio_OR/input_Sk produkt_term'
+
+2018-10-19 10:25:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Desenio_OR/input_Sk produkt_Sokknapp' is clicked on
+
+2018-10-19 10:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Desenio_OR/input_Sk produkt_Sokknapp' is clicked on
+
+2018-10-19 10:25:16 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'nature' is present on page 
+
+2018-10-19 10:25:17 - [MESSAGE][PASSED] - Text 'nature' is present on page 
+
+2018-10-19 10:25:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-19 10:25:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-19 10:24:47 - [TEST_SUITE][PASSED] - Search: Test Cases/TC1 Negative]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
