@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search" time="0" tests="1" failures="0" errors="0">
+   <testsuite name="Search" tests="1" failures="0" errors="0" time="0" timestamp="2018-10-22 14:51:15" hostname="janilsso - LNOR021564.corp.capgemini.com" id="Test Suites/Search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\janilsso\\git\\KatalonGitTest\\Reports\\Search\\20181022_145113"/>
+         <property name="logFiles" value="C:\\Users\\janilsso\\git\\KatalonGitTest\\Reports\\Search\\20181022_145113\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="janilsso - LNOR021564.corp.capgemini.com"/>
+         <property name="hostAddress" value="10.38.102.113"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+      </properties>
+      <testcase name="Test Cases/TC1" classname="Test Cases/TC1" status="PASSED">
+         <system-out><![CDATA[2018-10-22 14:51:15 - [TEST_CASE][PASSED] - Test Cases/TC1: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-22 14:51:15 - [TEST_SUITE][INCOMPLETE] - Search: null]]></system-out>
+      <system-err><![CDATA[2018-10-22 14:51:15 - [TEST_SUITE][INCOMPLETE] - Search: null]]></system-err>
+   </testsuite>
+</testsuites>

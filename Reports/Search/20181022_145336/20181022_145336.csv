@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search,Chrome 69.0.3497.100,,2018-10-22 14:53:38,2018-10-22 14:53:47,"9,223s",FAILED
+,,,,,,
+Test Cases/TC1,Chrome 69.0.3497.100,,2018-10-22 14:53:38,2018-10-22 14:53:46,"8,020s",FAILED
+openBrowser,Chrome 69.0.3497.100,,2018-10-22 14:53:39,2018-10-22 14:53:45,"6,073s",PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-10-22 14:53:45,2018-10-22 14:53:46,"1,437s",FAILED
