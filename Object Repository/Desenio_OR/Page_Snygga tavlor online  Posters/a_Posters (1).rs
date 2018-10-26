@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Posters</name>
+   <name>a_Posters (1)</name>
    <tag></tag>
-   <elementGuidId>d06e034f-7b0d-4a28-ba26-e6f5fd5664f3</elementGuidId>
+   <elementGuidId>cc60cfc0-88b9-49df-95f8-278d79e6377f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short no-padding-left&quot;]/a[@class=&quot;descr&quot;][count(. | //a[@class = 'descr' and @href = '/sv/artiklar/prints-posters/index.html' and (text() = '              Posters          ' or . = '              Posters          ')]) = count(//a[@class = 'descr' and @href = '/sv/artiklar/prints-posters/index.html' and (text() = '              Posters          ' or . = '              Posters          ')])]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='mainMenuIncludeContainer']/div[2]/a</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,7 +41,7 @@
       <value>              Posters          </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

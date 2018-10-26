@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Vlj sortering_standardImg</name>
+   <tag></tag>
+   <elementGuidId>02677eba-cc4b-4e43-939b-ba08f85d3e3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainArticleWrapper&quot;)/ul[@class=&quot;products main&quot;]/li[@class=&quot;PT_Wrapper product   quickview pointer relative loading-bg&quot;]/div[@class=&quot;image text-center relative v-middle-outer&quot;]/a[1]/div[1]/span[@class=&quot;verticleMiddle text-center&quot;]/img[@class=&quot;standardImg lazyloaded&quot;][count(. | //img[@data-src = 'https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg' and @onerror = concat('this.src=') and @class = 'standardImg lazyloaded' and @src = 'https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg']) = count(//img[@data-src = 'https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg' and @onerror = concat('this.src=') and @class = 'standardImg lazyloaded' and @src = 'https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainArticleWrapper']/ul/li/div/a/div/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-src</name>
+      <type>Main</type>
+      <value>https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onerror</name>
+      <type>Main</type>
+      <value>this.src=''</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>standardImg lazyloaded</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainArticleWrapper&quot;)/ul[@class=&quot;products main&quot;]/li[@class=&quot;PT_Wrapper product   quickview pointer relative loading-bg&quot;]/div[@class=&quot;image text-center relative v-middle-outer&quot;]/a[1]/div[1]/span[@class=&quot;verticleMiddle text-center&quot;]/img[@class=&quot;standardImg lazyloaded&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='mainArticleWrapper']/ul/li/div/a/div/span/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Välj sortering'])[1]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrera'])[2]/following::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personlig poster'])[1]/preceding::img[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Girl In Window Poster'])[1]/preceding::img[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <value>//img[contains(@src,'https://1369994046.rsc.cdn77.org/bilder/artiklar/3802.jpg')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//a/div/span/img</value>
+   </webElementXpaths>
+</WebElementEntity>

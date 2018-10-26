@@ -1,106 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ramar</name>
+   <name>img_Fr. 59.25 kr_standardImg l</name>
    <tag></tag>
-   <elementGuidId>e39633fc-a916-44de-82fa-92f5fa6990a0</elementGuidId>
+   <elementGuidId>4512d488-f75f-4889-80b2-ee1572395186</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short wide&quot;]/a[@class=&quot;descr&quot;][count(. | //a[@class = 'descr' and @href = '/sv/artiklar/tavelramar/index.html' and (text() = '            Ramar        ' or . = '            Ramar        ')]) = count(//a[@class = 'descr' and @href = '/sv/artiklar/tavelramar/index.html' and (text() = '            Ramar        ' or . = '            Ramar        ')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='mainMenuIncludeContainer']/div[3]/a</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
+         <value>//div[@id='mainArticleWrapper']/ul/li[2]/div/a/div/span/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-src</name>
+      <type>Main</type>
+      <value>https://1369994046.rsc.cdn77.org/bilder/artiklar/8422.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onerror</name>
+      <type>Main</type>
+      <value>this.src=''</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>descr</value>
+      <value>standardImg lazyloaded</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>src</name>
       <type>Main</type>
-      <value>/sv/artiklar/tavelramar/index.html</value>
+      <value>https://1369994046.rsc.cdn77.org/bilder/artiklar/8422.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>            Ramar        </value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short wide&quot;]/a[@class=&quot;descr&quot;]</value>
+      <value>id(&quot;mainArticleWrapper&quot;)/ul[@class=&quot;products main&quot;]/li[@class=&quot;PT_Wrapper product   quickview pointer relative loading-bg&quot;]/div[@class=&quot;image text-center relative v-middle-outer&quot;]/a[1]/div[1]/span[@class=&quot;verticleMiddle text-center&quot;]/img[@class=&quot;standardImg lazyloaded&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='mainMenuIncludeContainer']/div[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Ramar')]</value>
+      <value>//div[@id='mainArticleWrapper']/ul/li[2]/div/a/div/span/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posters'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr. 59.25 kr'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topplistan'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr. 79 kr'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tillbehör'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Handpicked'])[3]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Presentkort'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kate Moss Life Is A Joke Poster'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/sv/artiklar/tavelramar/index.html')]</value>
+      <name>xpath:img</name>
+      <value>//img[contains(@src,'https://1369994046.rsc.cdn77.org/bilder/artiklar/8422.jpg')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/a</value>
+      <value>//li[2]/div/a/div/span/img</value>
    </webElementXpaths>
 </WebElementEntity>

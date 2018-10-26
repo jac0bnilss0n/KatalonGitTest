@@ -3,22 +3,14 @@
    <description></description>
    <name>a_Posters</name>
    <tag></tag>
-   <elementGuidId>d06e034f-7b0d-4a28-ba26-e6f5fd5664f3</elementGuidId>
+   <elementGuidId>e53cd64b-4a03-4dcf-ab77-f647c69ea233</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short no-padding-left&quot;]/a[@class=&quot;descr&quot;][count(. | //a[@class = 'descr' and @href = '/sv/artiklar/prints-posters/index.html' and (text() = '              Posters          ' or . = '              Posters          ')]) = count(//a[@class = 'descr' and @href = '/sv/artiklar/prints-posters/index.html' and (text() = '              Posters          ' or . = '              Posters          ')])]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='mainMenuIncludeContainer']/div[2]/a</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -46,10 +38,12 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>              Posters          </value>
+      <value>
+              Posters
+          </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -83,13 +77,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ramar'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posters'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tillbehör'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alla posters'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

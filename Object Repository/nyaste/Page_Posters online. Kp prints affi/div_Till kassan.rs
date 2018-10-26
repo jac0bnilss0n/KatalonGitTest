@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ramar</name>
+   <name>div_Till kassan</name>
    <tag></tag>
-   <elementGuidId>e39633fc-a916-44de-82fa-92f5fa6990a0</elementGuidId>
+   <elementGuidId>37710cbc-87e4-4dec-951b-360a9c18560e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short wide&quot;]/a[@class=&quot;descr&quot;][count(. | //a[@class = 'descr' and @href = '/sv/artiklar/tavelramar/index.html' and (text() = '            Ramar        ' or . = '            Ramar        ')]) = count(//a[@class = 'descr' and @href = '/sv/artiklar/tavelramar/index.html' and (text() = '            Ramar        ' or . = '            Ramar        ')])]</value>
+         <value>id(&quot;mainModalContent&quot;)/div[@id=&quot;recommendationContainer&quot;]/div[@class=&quot;mobile-8 desktop-9 columns extra-padding-left&quot;]/div[@class=&quot;buttons hide-for-mobile show-for-medium-up&quot;]/a[1]/div[@class=&quot;checkout button primary large full-w half-spacing-bottom medium-text&quot;][count(. | //div[@class = 'checkout button primary large full-w half-spacing-bottom medium-text' and (text() = ' 
+						Till kassan 
+					' or . = ' 
+						Till kassan 
+					')]) = count(//div[@class = 'checkout button primary large full-w half-spacing-bottom medium-text' and (text() = ' 
+						Till kassan 
+					' or . = ' 
+						Till kassan 
+					')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mainMenuIncludeContainer']/div[3]/a</value>
+         <value>//div[@id='recommendationContainer']/div[2]/div[2]/a/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -25,82 +33,65 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>descr</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/sv/artiklar/tavelramar/index.html</value>
+      <value>checkout button primary large full-w half-spacing-bottom medium-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>            Ramar        </value>
+      <value> 
+						Till kassan 
+					</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mainMenuIncludeContainer&quot;)/div[@class=&quot;menuItem dropdown short wide&quot;]/a[@class=&quot;descr&quot;]</value>
+      <value>id(&quot;mainModalContent&quot;)/div[@id=&quot;recommendationContainer&quot;]/div[@class=&quot;mobile-8 desktop-9 columns extra-padding-left&quot;]/div[@class=&quot;buttons hide-for-mobile show-for-medium-up&quot;]/a[1]/div[@class=&quot;checkout button primary large full-w half-spacing-bottom medium-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='mainMenuIncludeContainer']/div[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Ramar')]</value>
+      <value>//div[@id='recommendationContainer']/div[2]/div[2]/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posters'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fortsätt handla'])[2]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topplistan'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kate Moss poster med mustasch'])[3]/following::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tillbehör'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fortsätt handla'])[3]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Presentkort'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/sv/artiklar/tavelramar/index.html')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Till kassan'])[5]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/a</value>
+      <value>//div[2]/a/div</value>
    </webElementXpaths>
 </WebElementEntity>
